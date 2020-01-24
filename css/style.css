@@ -1,9 +1,18 @@
 footer {
     bottom: 0;
     width: 100%;
+    position: absolute;
 }
 
 .title {
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.quit {
+    list-style-type: square;
+}
+
+.quit:hover {
+    background-color: rgba(71, 231, 71, 0.603);
 }
