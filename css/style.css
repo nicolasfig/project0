@@ -1,14 +1,22 @@
 footer {
     bottom: 0;
     width: 100%;
-    position: relative;
+    position: fixed;
+}
+
+ol > img {
+    height: 300px;
+    width: auto;
 }
 
 .title {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
 }
 
+.content {
+    overflow-y: scroll;
+    padding-bottom: 10vh;
+}
 .quit {
     list-style-type: square;
 }
